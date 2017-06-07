@@ -1,13 +1,23 @@
 @charset "UTF-8";
-*{
-  margin: 0;
-  padding: 0;
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 html, body {
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 button {
   background: none;
   border: 0;
@@ -381,9 +391,6 @@ h1 {
   -ms-transition: all 0.30s ease-in-out;
   -o-transition: all 0.30s ease-in-out;
   outline: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   width: 100%;
   background: #fff;
   margin-bottom: 4%;
