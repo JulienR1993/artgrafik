@@ -187,6 +187,10 @@ h1 {
   padding: 30px;
 }
 
+.footer-abo{
+  margin-top:80px;
+}
+
 .footer-logo {
   width: 290px;
   margin: 30px auto;
@@ -320,16 +324,22 @@ h1 {
 
 .back-button {
   cursor:pointer;
-  color: black;
+  color: #e76151;
   border-style: solid;
   border-width: medium;
-  margin-left: 50px;
+  margin-left: 40px;
   padding-top : 10px;
   padding-bottom: 10px;
   padding-left: 35px;
   padding-right: 35px;
   margin-top: 50px;
   border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+.back-button:hover{
+  background-color: #e76151;
+  color: white;
 }
 
 .parallax-streetart {
@@ -370,6 +380,8 @@ h1 {
   background: #F7F7F7;
 }
 
+
+
 .form-style-6 h1{
   background: #e76151;
   padding: 20px 0;
@@ -406,6 +418,8 @@ h1 {
   box-shadow: 0 0 5px #43D1AF;
   padding: 3%;
   border: 1px solid #43D1AF;
+  margin-bottom: 40px;
+
 }
 
 .form-style-6 input[type="submit"],
@@ -422,17 +436,21 @@ h1 {
   border-left-style: none;
   color: #fff;
 
+
+
+
+
 }
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
-  background: black;
+  background: white;
+  color:#e76151;
   cursor: pointer;
-
-
 }
 
 .input-checkbox{
   margin-right: 40px;
+
 
 }
 
@@ -508,6 +526,7 @@ h5:after {
   font-size: 25px;
   margin-top: 20px;
   line-height: 100px;
+  width: 400px;
 }
 
 .link-contact:hover{
@@ -522,11 +541,11 @@ h5:after {
 h6{
   font-family: 'montserrat', sans-serif;
   text-transform: capitalize;
-  margin-top: 10px;
-  text-align: center;
+  text-align: left;
   color: black;
   font-size: 30px;
-  padding-top: 100px;
+  padding-top: 50px;
+  margin-left: 250px;
 }
 
 .div-bloc{
@@ -534,10 +553,15 @@ h6{
   border-width:medium;
   border-color: #e76151;
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 130px;
+  margin-right: 100px;
+  float: left;
 }
 
-.i-contact{
-  font-size: 100px;
+.section-contact{
+  height: 1000px;
+}
+
+.gmap-contact{
+  padding-top: 100px;
 }
