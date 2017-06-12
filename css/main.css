@@ -519,6 +519,7 @@ h5:after {
 .citation:after {
   margin-left: .3rem;
 }
+
 .contact{
   color: black;
   margin-bottom: 100px;
@@ -547,7 +548,7 @@ h6 {
   padding-top: 50px;
 }
 
-.div-bloc{
+.div-bloc {
   border-style: solid;
   border-width:medium;
   border-color: #e76151;
@@ -557,10 +558,10 @@ h6 {
   float: left;
 }
 
-.section-contact{
+.section-contact {
   height: 1000px;
 }
 
-.gmap-contact{
+.gmap-contact {
   padding-top: 100px;
 }
