@@ -565,3 +565,14 @@ h6 {
 .gmap-contact {
   padding-top: 100px;
 }
+
+.abonnement-animation {
+  position: absolute;
+  top: 270px;
+  left: 0;
+  z-index: -1;
+}
+
+.abonnement-animation img {
+  width: 100%;
+}
