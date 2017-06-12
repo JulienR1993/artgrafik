@@ -538,14 +538,13 @@ h5:after {
   color: black;
 }
 
-h6{
+h6 {
   font-family: 'montserrat', sans-serif;
-  text-transform: capitalize;
-  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
   color: black;
   font-size: 30px;
   padding-top: 50px;
-  margin-left: 250px;
 }
 
 .div-bloc{
